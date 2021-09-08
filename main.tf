@@ -19,6 +19,6 @@ resource "aws_instance" "lab_app_server" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "terraform-AWS-SimpleEC2"
+    Name = "terraform-AWS-SimpleEC2-1"
   }
 }
